@@ -14,9 +14,11 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         relic_banner_parser.cpp \
-    html_source_parser.cpp
+    html_source_parser.cpp \
+    html_beautifier.cpp
 
 HEADERS  += relic_banner_parser.h \
-    html_source_parser.h
+    html_source_parser.h \
+    html_beautifier.h
 
 FORMS    += relic_banner_parser.ui
